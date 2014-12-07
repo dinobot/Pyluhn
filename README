@@ -1,5 +1,5 @@
 Read up on here: http://www.merriampark.com/anatomycc.htm
 
-Wanted to make a python implementation of it.  
+Once I needed a software to recover missed digits in list of credit card numbers (university CTF). 
 
-NOTE: The 'odd'-numbered card is currently untested; I didn't have an odd-numbered card to test it on.
+Here is solution. 

@@ -1,4 +1,3 @@
-
 def luhn(cc):
 	scc = str(cc)
 	isum = 0
@@ -33,7 +32,9 @@ def luhn(cc):
 		return True
 	return False
 
+import sys
+import numbers
 
-print(luhn(4408041234567893))
-
-print(luhn(4417123456789112))
+for card in sys.argv:
+	if card.isdigit():
+		print(luhn(card))
